@@ -1,0 +1,2 @@
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathAndComparisonOperators\MathAndComparisonOperators\obj\Debug\MathAndComparisonOperators.csproj.AssemblyReference.cache
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathAndComparisonOperators\MathAndComparisonOperators\obj\Debug\MathAndComparisonOperators.csproj.CoreCompileInputs.cache
