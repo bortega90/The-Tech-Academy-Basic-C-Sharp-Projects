@@ -27,7 +27,7 @@ namespace CarInsurance
             // pt 2
 
             // check to see if qualified 
-            bool qualified = age > 15 && dui != true && tickets < 3;
+            bool qualified = age > 15 && dui != true && tickets <= 3;
             Console.WriteLine("Qualified? " + qualified);
             Console.ReadLine();
 
