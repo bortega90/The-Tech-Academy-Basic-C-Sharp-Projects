@@ -10,6 +10,7 @@ namespace Loops
     {
         static void Main(string[] args)
         {
+            //do while loop
             Console.WriteLine("Guess my favorite number!");
             int number = Convert.ToInt32(Console.ReadLine());
             bool isGuessed = number == 7;
@@ -50,6 +51,17 @@ namespace Loops
             //will loop thru all the cases until the right one is picked
             while (!isGuessed); 
             Console.ReadLine();
+
+            //while loop
+            int age = 33;
+            while (age <= 37)
+            {
+                Console.WriteLine(age);
+                //adding counter until it counts to age 37 from 33
+                age++;
+            }
+            Console.ReadLine();
+
         }
     }
 }
