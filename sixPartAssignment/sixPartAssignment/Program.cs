@@ -73,30 +73,46 @@ class Program
         Console.WriteLine("Search through list of fruits");
         // user's string input
         string fruitSearch = Console.ReadLine();
-               
+        bool found = false;       
         //
         for (int i = 0; i < fruits.Count; i++)
         {
             if (fruits[i] == fruitSearch)
             {
+                found = true;
                 Console.WriteLine(i);
                 break;
             }
-            else
-                if (fruits[i] !=  fruitSearch)
-            {
-                Console.WriteLine("Error");
-            }
-        }
+            
+        }   
         
         
         Console.ReadLine();
 
         //pt 5 ------------------------------------------------------
         List<string> movies = new List<string>() { "Titanic", "Black Swan", "Shrek", "Prince Of Egypt", "Shrek" };
+        Console.WriteLine("Pick a movie from the list");
         string moviesSearch = Console.ReadLine();
-        
 
+        for (int i = 0; i < movies.Count;i++)
+            if (movies[i] == moviesSearch)
+        {
+            Console.WriteLine(i);
+             
+        }
+        Console.ReadLine();
+
+        //pt 6 ------------------------------------------------------
+        //List<string> animals = new List<string>() { "zebra", "cat", "dog", "zebra", "elephant" };
+        //foreach (string animal in animals)
+        //{
+        //    if ()
+        //    {
+        //        Console.WriteLine("This animal is unique")
+        //    }
+        //}
+        //Console.ReadLine();
+        
     }
 
 }
