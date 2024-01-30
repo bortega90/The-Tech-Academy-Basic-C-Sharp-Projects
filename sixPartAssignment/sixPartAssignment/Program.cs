@@ -40,13 +40,6 @@ class Program
             break;
         }
         Console.ReadLine() ;
-  
-        string name1 = string.Join(addName, updateNames);
-        foreach (string name in updateNames)
-        {
-            Console.WriteLine(name1);
-        }
-        Console.ReadLine();
         // end pt 2 -----------------------------------------------
        
         // pt 3 ----------------------------------------------------
@@ -82,10 +75,12 @@ class Program
                 found = true;
                 Console.WriteLine(i);
                 break;
-            }
-            
-        }   
-        
+            }  
+        }
+        if (found == false)
+        {
+            Console.WriteLine("Fruit not found.");
+        }
         
         Console.ReadLine();
 
@@ -103,16 +98,23 @@ class Program
         Console.ReadLine();
 
         //pt 6 ------------------------------------------------------
-        //List<string> animals = new List<string>() { "zebra", "cat", "dog", "zebra", "elephant" };
-        //foreach (string animal in animals)
-        //{
-        //    if ()
-        //    {
-        //        Console.WriteLine("This animal is unique")
-        //    }
-        //}
-        //Console.ReadLine();
-        
+        List<string> animals = new List<string>() { "zebra", "cat", "dog", "zebra", "elephant" };
+        List<string> newList = new List<string>();
+        foreach (string animal in animals)
+        {
+            if (newList.Contains(animal))
+            {
+                Console.WriteLine(animal + "- I have seen this animal");
+            }
+            else
+            {
+                Console.WriteLine(animal + "- I have not seen this animal");
+                newList.Add(animal);
+            }
+                
+        }
+        Console.ReadLine();
+
     }
 
 }
