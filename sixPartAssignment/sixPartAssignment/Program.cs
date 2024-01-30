@@ -88,12 +88,17 @@ class Program
         List<string> movies = new List<string>() { "Titanic", "Black Swan", "Shrek", "Prince Of Egypt", "Shrek" };
         Console.WriteLine("Pick a movie from the list");
         string moviesSearch = Console.ReadLine();
-
+        bool pick = false;
         for (int i = 0; i < movies.Count;i++)
             if (movies[i] == moviesSearch)
         {
+                pick = true;
             Console.WriteLine(i);
              
+        }
+        if  (pick == false)
+        {
+            Console.WriteLine("Movie not found.");
         }
         Console.ReadLine();
 
