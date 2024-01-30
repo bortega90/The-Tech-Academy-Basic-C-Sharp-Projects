@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-
+using System.Text;
 
 
 
@@ -12,19 +12,13 @@ class Program
         //pt 1 ------------------------------------------------------
         // 1-d string array
         string[] names = { "Ollie", "Britny", "Emily", "Gemini", "Peter" };
-        string[] updateNames = new string[names.Length + 1];
+        StringBuilder sb = new StringBuilder();
         // asking user to input a string
-        Console.WriteLine("Add your name to the list: ");
-        string addName = Console.ReadLine();
-        // copy elements in names to updateName
-        Array.Copy(names, updateNames, names.Length);
-        // insert addName at the end ot updateNames
-        updateNames[updateNames.Length - 1] = addName;
-        // print new array
-        Console.WriteLine("Update Names: ");
-        for (int i = 0; i < updateNames.Length; i++)
+        Console.WriteLine("Add text: ");
+        sb.AppendLine(Console.ReadLine());
+        for (int i = 0; i < names.Length; i++)
         {
-            Console.WriteLine(updateNames[i] + " ");         
+            Console.WriteLine(names[i] + sb);
         }
         Console.ReadLine();
         // end of pt1 ----------------------------------------------
@@ -33,7 +27,7 @@ class Program
         // infinity loop
         while (true)
         {
-            string name = string.Join(" ", updateNames);
+            string name = string.Join(" ", names);
             // print array infinite times
             Console.WriteLine(name);
             // stops loop
@@ -46,14 +40,34 @@ class Program
         Console.WriteLine("Pick a number between 0-7");
         int number = Convert.ToInt32(Console.ReadLine());
 
-        if (number > 7)
+        for ( int i = 0; i < number;)
         {
-            Console.WriteLine("error");
+            if (number < 7)
+            {
+                Console.WriteLine("This number works");
+                break;
+            }
+            else
+            {
+                Console.WriteLine("error");
+                break;
+            }
         }
-        else
-            if (number <= 7)
+
+        Console.WriteLine("Pick another number");
+        int number1 = Convert.ToInt32(Console.ReadLine());
+        for (int i = 0; i <= number1;)
         {
-            Console.WriteLine(number);
+            if (number1 <= 7)
+            {
+                Console.WriteLine("This works");
+                break;
+            }
+            else
+            {
+                Console.WriteLine("error");
+                break;
+            }
         }
         Console.ReadLine();
         // end pt 3 -------------------------------------------------

@@ -20,13 +20,14 @@ namespace StringAndIntegers
                     Console.WriteLine("Dividing the pick picked number to the numbers in the list");
                     int divideBy = numbers[i] / userNumber;
                     Console.WriteLine(numbers[i] + " divide by " + userNumber + " equals " + divideBy);
-
+                    Console.ReadLine();
                 }
                 Console.ReadLine();
             }
             catch (FormatException ex)
             {
                 Console.WriteLine("Please type a number");
+                Console.ReadLine();
             }
             catch (DivideByZeroException ex)
             {
