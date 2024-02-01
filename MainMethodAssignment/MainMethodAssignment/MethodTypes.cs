@@ -11,8 +11,8 @@ namespace MainMethodAssignment
         //integer method
         public int Methods(int x) { return x + 5; }
         //decimal method
-        public decimal Methods(decimal x) { return x/3; }
+        public int Methods(decimal x) { return Convert.ToInt32(x)/3; }
         //string method
-        public string Methods(string x) { return x; }
+        public int Methods(string x) { return Convert.ToInt32(x)*6; }
     }
 }
