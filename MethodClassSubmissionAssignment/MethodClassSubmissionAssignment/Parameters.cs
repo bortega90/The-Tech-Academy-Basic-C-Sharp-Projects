@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace MethodClassSubmissionAssignment
 {
-    internal class Void
+    public class Parameters
     {
-        public void Method(int x, int y) { return x + y; }
+        public void Parameter(int x , int y) 
+        {
+            int x = x + 5;
+            int y = y;
+        }
     }
 }
