@@ -8,10 +8,10 @@ namespace MethodClassSubmissionAssignment
 {
     public class Parameters
     {
-        public void Parameter(int x , int y) 
+        public void Parameter(int x, int y, out int result) 
         {
-            int x = x + 5;
-            int y = y;
+            result = (x + 3), y;
+           
         }
     }
 }
