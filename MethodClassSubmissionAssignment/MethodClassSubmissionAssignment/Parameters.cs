@@ -8,10 +8,11 @@ namespace MethodClassSubmissionAssignment
 {
     public class Parameters
     {
-        public void Parameter(int x, int y, out int result) 
+        public void Parameter(int x, int y)
         {
-            result = (x + 3), y;
-           
+            Console.WriteLine( x + 2);  
+            Console.WriteLine(y);
         }
+
     }
 }

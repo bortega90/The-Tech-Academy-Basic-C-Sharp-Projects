@@ -13,14 +13,10 @@ namespace MethodClassSubmissionAssignment
             //class and instantiate 
             Parameters obj = new Parameters();
 
-            //pass two numbers
-            int num1 = Convert.ToInt32(5); 
-            int num2 = Convert.ToInt32(6);
-         
             //calling method() for passing numbers
-            obj.Parameter(5,6);
+            obj.Parameter(5, 6); 
             //calling method() by parameter name
-            obj.Parameter(num1,num2);
+            obj.Parameter(x: 3, y: 5);
             Console.ReadLine();
             
 
