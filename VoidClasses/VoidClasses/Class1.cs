@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 namespace VoidClasses
 {
     //declaring class static?
-    static class Class1
-    {   
+    public class Class1
+    {
         //create void method() that outputs an integer
-        public void Method(int x, out int result)
+        public void Method(int x)
         {
-            result = x / 2;
+            Console.WriteLine(x / 2);
         }
-        //create method() w/ output parameters
-        public int Method(int x) { return x; }
+
+       
     }
 }
