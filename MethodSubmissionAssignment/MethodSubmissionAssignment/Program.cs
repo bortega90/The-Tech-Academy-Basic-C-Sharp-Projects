@@ -17,9 +17,20 @@ namespace MethodSubmissionAssignment
             Console.WriteLine("Input two numbers.");
             int num1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Second number is optional");
-            int num2 = Convert.ToInt32(Console.ReadLine());
-            //calling method with instance and variables 
-            Console.WriteLine(obj.Parameters(num1, num2));
+            string num2 = Console.ReadLine();
+            if (num2 == "")
+            {
+                //calling method with instance and one variable
+                Console.WriteLine(obj.Parameters(num1));
+            }
+            else
+            {
+                int num3 = Convert.ToInt32(num2);
+                 
+                //calling method with instance and two variables
+                Console.WriteLine(obj.Parameters(num1, num3));
+            }
+            
             Console.ReadLine();
         }
     }

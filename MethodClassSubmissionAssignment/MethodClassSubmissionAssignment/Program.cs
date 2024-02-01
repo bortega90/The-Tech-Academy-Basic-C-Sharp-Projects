@@ -4,10 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MethodSubmissionAssignment
+namespace MethodClassSubmissionAssignment
 {
-    public class Paramaters
+    internal class Program
     {
-        public int Parameters(int x, int y = 0) { return x + y; }
+        static void Main(string[] args)
+        {
+
+        }
     }
 }
