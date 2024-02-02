@@ -12,7 +12,7 @@ namespace VoidClasses
         //create static method() with out parameters
         public static void Method(out string b)
         {
-            b = " ";
+            b = "Hello World";
             Console.WriteLine(b);
         }
     }

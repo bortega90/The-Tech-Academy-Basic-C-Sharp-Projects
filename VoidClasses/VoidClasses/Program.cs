@@ -10,21 +10,23 @@ namespace VoidClasses
     {
         static void Main(string[] args)
         { 
-            //class and instantiate
+            //class and instantiate Class1
             Class1 class1 = new Class1();
-            Class2 class2 = new Class2();
             //ask user to input an integer
             Console.WriteLine("Please input a number");
             int input = Convert.ToInt32(Console.ReadLine());
             //ask user to type a string
-            Console.WriteLine("Please type a word");
-            string word = Console.ReadLine();
+            Console.WriteLine("Press enter");
+            string b = Console.ReadLine();
 
-            //calling overload Method() from both classes
+            //calling overload Method() from class1 instantiated from Class1
             class1.Method(input);
-            class2.Method(b:out word) ;
+            //calling Method() from Class2 since Class2 can't be instantiated from static class
+            Class2.Method(out b);
             
+
             Console.ReadLine();
         }
+        
     }
 }
