@@ -16,7 +16,7 @@ namespace AbstractClass
         //using IQuittable method Quit()
         public void Quit()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Meow!");
         }
     }
 }

@@ -17,6 +17,8 @@ namespace AbstractClass
             employee.LastName = "Student";
             //calling method 
             employee.SayName();
+            //Quit() Method inherited by interface
+            employee.Quit();
             Console.ReadLine();
 
         }
