@@ -13,12 +13,23 @@ namespace OperatorAssignment
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public static Employee operator ==(Employee employee  Employee LastName)
+        public static Employee operator == (Employee employee, Employee FirstName)
         {
-            if (employee == employee.FirstName && employee == employee.LastName)
+            if (employee.Equals(FirstName))
+            {
                 return true;
-            return false;
+            }
+            else
+                return false;
         }
-        
+        public static Employee operator == (Employee employee, Employee LastName)
+        {
+            if (employee.Equals(LastName))
+            {
+                return true;
+            }
+            else
+                return false;
+        }
     }
 }
