@@ -15,6 +15,11 @@ namespace VoidClasses
             Console.WriteLine(x / 2);
         }
 
+        public void Method(int x= 4, int y= 6)
+        {
+            Console.WriteLine(x * y);
+        }
+
        
     }
 }

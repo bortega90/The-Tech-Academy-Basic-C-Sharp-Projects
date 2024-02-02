@@ -16,13 +16,14 @@ namespace VoidClasses
             Console.WriteLine("Please input a number");
             int input = Convert.ToInt32(Console.ReadLine());
             //ask user to type a string
-            Console.WriteLine("Press enter");
-            string b = Console.ReadLine();
+            //Console.WriteLine("Press enter");
+            //string b = Console.ReadLine();
 
             //calling overload Method() from class1 instantiated from Class1
             class1.Method(input);
+            class1.Method();
             //calling Method() from Class2 since Class2 can't be instantiated from static class
-            Class2.Method(out b);
+            //Class2.Method(out b);
             
 
             Console.ReadLine();
