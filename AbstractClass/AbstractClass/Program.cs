@@ -9,16 +9,16 @@ namespace AbstractClass
     internal class Program
     {
         static void Main(string[] args)
-        {   
-            //instantiating Employee object 
+        {
+            //instantiating Class and Interface 
             Employee employee = new Employee();
+            IQuittable employee2 = new Employee();
             //inputting names for employee
             employee.FirstName = "Sample";
             employee.LastName = "Student";
             //calling method 
             employee.SayName();
-            //Quit() Method inherited by interface
-            employee.Quit();
+            employee2.Quit();
             Console.ReadLine();
 
         }
