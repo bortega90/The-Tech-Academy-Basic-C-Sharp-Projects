@@ -15,16 +15,18 @@ namespace ParsingEnums
                 //ask user to enter current day
                 Console.WriteLine("What day is today?");
                 //dayofweektype is data type
-                DayOfWeekType input = Console.ReadLine();
+                DayOfWeekType input = (DayOfWeekType) Enum.Parse(typeof(DayOfWeekType),Console.ReadLine());
+                Console.WriteLine(input);
             }
             catch(FormatException)
             {
-                Console.WriteLine("Please type day of the week.")
+                Console.WriteLine("Please type day of the week.");
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex);
+                Console.WriteLine("Error");
             }
+            
             Console.ReadLine();
         }
     }
