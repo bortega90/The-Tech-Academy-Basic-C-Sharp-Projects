@@ -1,0 +1,7 @@
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OperatorAssignment\OperatorAssignment\bin\Debug\OperatorAssignment.exe.config
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OperatorAssignment\OperatorAssignment\bin\Debug\OperatorAssignment.exe
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OperatorAssignment\OperatorAssignment\bin\Debug\OperatorAssignment.pdb
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OperatorAssignment\OperatorAssignment\obj\Debug\OperatorAssignment.csproj.AssemblyReference.cache
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OperatorAssignment\OperatorAssignment\obj\Debug\OperatorAssignment.csproj.CoreCompileInputs.cache
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OperatorAssignment\OperatorAssignment\obj\Debug\OperatorAssignment.exe
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OperatorAssignment\OperatorAssignment\obj\Debug\OperatorAssignment.pdb

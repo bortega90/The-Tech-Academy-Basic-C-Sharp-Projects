@@ -9,27 +9,17 @@ namespace OperatorAssignment
     public class Employee
     {
         //properties for Employee class
-        public string Id {  get; set; }
+        public int Id {  get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public static Employee operator == (Employee employee, Employee FirstName)
+        public static bool operator == (Employee employee, Employee employee2)
         {
-            if (employee.Equals(FirstName))
-            {
-                return true;
-            }
-            else
-                return false;
+            return employee.Id == employee2.Id;
         }
-        public static Employee operator == (Employee employee, Employee LastName)
+        public static bool operator != (Employee employee, Employee employee2)
         {
-            if (employee.Equals(LastName))
-            {
-                return true;
-            }
-            else
-                return false;
+            return employee.Id != employee2.Id;
         }
     }
 }
