@@ -12,65 +12,43 @@ namespace LambdaSubmission
     {
         static void Main(string[] args)
         {
-           
-            //list of names
-            List<string> FirstName = new List<string>() 
-            { 
-                "Joe", 
-                "Maggy", 
-                "Rafael", 
-                "Britny",
-                "Sally",
-                "Bad",
-                "Joe",
-                "Ollie",
-                "Nathan",
-                "Tims"
-            };
 
-            List<string> LastName = new List<string>()
+            //list of first names, last names and id
+            List<Employee> employees = new List<Employee>()
             {
-                "Smith",
-                "Lee",
-                "Guevara",
-                "Ortega",
-                "Field",
-                "Bunny",
-                "Bob",
-                "Girl",
-                "Stanley",
-                "Jacobs"
-            };
-
-            List<int> Id = new List<int>()
-            {
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
+                new Employee() {Id =1, FirstName = "Joe", LastName= "Smith"},
+                new Employee() { Id = 2, FirstName = "Rafael", LastName = "Guevara" },
+                new Employee() { Id = 3, FirstName = "Britny", LastName = "Ortega"},
+                new Employee() {Id = 4, FirstName = "Ollie", LastName = "Ortega"},
+                new Employee() { Id = 5, FirstName = "Gemini", LastName = "Ryan"},
+                new Employee() { Id = 6, FirstName = "Peter", LastName = "Ryand" },
+                new Employee() { Id = 7, FirstName = "Joe", LastName = "Reily"},
+                new Employee() { Id = 8, FirstName = "Robert", LastName = "Jones"},
+                new Employee() { Id = 9, FirstName = "Oberto", LastName = "Vialta"}
             };
 
             //foreach loop
             string fname = "Joe";
-            //Employee employee = new Employee();
-            foreach (Employee employee in FirstName)
+            int count = 0;
+            foreach (Employee employee in employees)
             {
                 if (employee.FirstName == fname)
                 {
-                    Console.WriteLine(fname);
+                    count++;
+                    Console.WriteLine(employee.Id);
+                    Console.ReadLine();
                 }
+                
+
+               
             }
-            
+
 
             //lambda
-            List<FirstName> joeList = employee.FirstName.Where( x => x.FirstName == fname).ToList();
-            foreach (Employee employee in joeList) { Console.WriteLine(employee.FirstName); }
+            List<Employee> joeList = employees.Where(x => x.FirstName == fname).ToList();
+            foreach (Employee employee in joeList)
+            { Console.WriteLine(employee.FirstName); }
+            Console.ReadLine();
         }
     }
 }
