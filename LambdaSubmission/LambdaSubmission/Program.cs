@@ -21,33 +21,42 @@ namespace LambdaSubmission
                 new Employee() { Id = 3, FirstName = "Britny", LastName = "Ortega"},
                 new Employee() {Id = 4, FirstName = "Ollie", LastName = "Ortega"},
                 new Employee() { Id = 5, FirstName = "Gemini", LastName = "Ryan"},
-                new Employee() { Id = 6, FirstName = "Peter", LastName = "Ryand" },
+                new Employee() { Id = 6, FirstName = "Peter", LastName = "Ryan" },
                 new Employee() { Id = 7, FirstName = "Joe", LastName = "Reily"},
                 new Employee() { Id = 8, FirstName = "Robert", LastName = "Jones"},
-                new Employee() { Id = 9, FirstName = "Oberto", LastName = "Vialta"}
+                new Employee() { Id = 9, FirstName = "Oberto", LastName = "Vialta"},
+                new Employee() { Id = 10, FirstName = "Rodrigo", LastName = "Gonzalez"}
             };
 
             //foreach loop
             string fname = "Joe";
-            int count = 0;
+            List<Employee> joesList1 = new List<Employee>();
+            
             foreach (Employee employee in employees)
             {
                 if (employee.FirstName == fname)
                 {
-                    count++;
-                    Console.WriteLine(employee.Id);
+                    joesList1.Add(employee);
+                    Console.WriteLine(employee.FirstName + " " + employee.LastName + " " + employee.Id);
                     Console.ReadLine();
                 }
-                
-
-               
             }
 
 
             //lambda
             List<Employee> joeList = employees.Where(x => x.FirstName == fname).ToList();
             foreach (Employee employee in joeList)
-            { Console.WriteLine(employee.FirstName); }
+            { 
+                Console.WriteLine(employee.FirstName+" "+employee.LastName+" "+employee.Id); 
+            }
+            Console.ReadLine();
+
+            //lambda expressions for employee.ID > 5
+            List<Employee> IdList = employees.Where(x => x.Id >= 5).ToList();
+            foreach (Employee employee1 in IdList)
+            {
+                Console.WriteLine(employee1.Id+" "+employee1.FirstName+" "+employee1.LastName);
+            }
             Console.ReadLine();
         }
     }
