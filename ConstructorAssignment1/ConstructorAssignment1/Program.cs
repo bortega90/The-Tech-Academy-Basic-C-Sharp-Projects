@@ -15,6 +15,7 @@ namespace ConstructorAssignment1
             // var variable
             var lName = "Ortega";
             Console.WriteLine("My name is {0} {1}.",  fName, lName);
+            ChainConstructor chainConstructor = new ChainConstructor();
             Console.ReadLine();
         }
     }

@@ -22,6 +22,7 @@ namespace ConstructorAssignment1
         {
             this.id = id;
             this.name = name;
+            Console.WriteLine (id + " " + name);
         }
     }   
     
