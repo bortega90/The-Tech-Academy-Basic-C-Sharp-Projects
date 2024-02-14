@@ -1,0 +1,2 @@
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\TryCatchAssignment 2\TryCatchAssignment 2\obj\Debug\TryCatchAssignment 2.csproj.AssemblyReference.cache
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\TryCatchAssignment 2\TryCatchAssignment 2\obj\Debug\TryCatchAssignment 2.csproj.CoreCompileInputs.cache
