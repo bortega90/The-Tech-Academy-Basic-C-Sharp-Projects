@@ -26,7 +26,7 @@ namespace CarInsurance_MVC_.Controllers
             {
                 baseCost += 100m;
             }
-            if (age >=19 && age >= 25)
+            if (age >=19 && age <= 25)
             {
                 baseCost += 50m;
             }
