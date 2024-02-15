@@ -1,0 +1,12 @@
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Code-First\Code-First\bin\Debug\Code-First.exe.config
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Code-First\Code-First\bin\Debug\Code-First.exe
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Code-First\Code-First\bin\Debug\Code-First.pdb
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Code-First\Code-First\bin\Debug\EntityFramework.dll
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Code-First\Code-First\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Code-First\Code-First\bin\Debug\EntityFramework.xml
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Code-First\Code-First\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Code-First\Code-First\obj\Debug\Code-First.csproj.AssemblyReference.cache
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Code-First\Code-First\obj\Debug\Code-First.csproj.CoreCompileInputs.cache
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Code-First\Code-First\obj\Debug\Code-First.csproj.CopyComplete
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Code-First\Code-First\obj\Debug\Code-First.exe
+C:\Users\britn\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Code-First\Code-First\obj\Debug\Code-First.pdb
