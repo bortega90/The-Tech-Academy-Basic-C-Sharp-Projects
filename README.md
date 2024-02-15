@@ -5,7 +5,7 @@ This repository has projects I've done at my time at The Tech Academy that demos
 
 
 <h2>Car Insureance MVC</h2>
-<p>I created a .NET Web Application that will calculate a car insurance quote. The quote takes into account your age, driving history, and type of car and year of car and is saved on a database.</p>
+<p>I created a .NET Web Application that will calculate a car insurance quote. The quote takes into account your age, driving history, and type/year of car, then saved on a database.</p>
 
 <h2>Newsletter App MCV</h2>
 <p>The Newsletter App is another MVC Web Application made on the .NET Framework. It allows users to enter their email address to sign up for a newsletter and to unsubscribe to the newsletter. Information entered is saved on a database.</p>
