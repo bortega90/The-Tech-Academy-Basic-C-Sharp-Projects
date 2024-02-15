@@ -26,7 +26,7 @@ namespace CarInsurance_MVC_.Controllers
             {
                 baseCost += 100m;
             }
-            if (age <= 19 && age >= 25)
+            if (age >=19 && age >= 25)
             {
                 baseCost += 50m;
             }
@@ -54,7 +54,7 @@ namespace CarInsurance_MVC_.Controllers
             //calculating insuree's ticket history
             if (insuree.SpeedingTickets > 0)
             {
-                baseCost += 25 * insuree.SpeedingTickets;
+                baseCost += 10 * insuree.SpeedingTickets;
             }
             if (insuree.DUI == true)
             {
