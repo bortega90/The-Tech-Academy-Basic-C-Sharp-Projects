@@ -4,10 +4,10 @@
 This repository has projects I've done at my time at The Tech Academy that demostrates my knowledge in C# and working with the .NET Framework. There are many smaller projects that are technical drills such as math logic, loop through list and arrays, and try/catch statements
 
 
-<h2>Car Insureance MVC</h2>
+<h2>Car Insurance MVC</h2>
 <p>I created a .NET Web Application that will calculate a car insurance quote. The quote takes into account your age, driving history, and type/year of car, then saved on a database.</p>
 
-<h2>Newsletter App MCV</h2>
+<h2>Newsletter App MVC</h2>
 <p>The Newsletter App is another MVC Web Application made on the .NET Framework. It allows users to enter their email address to sign up for a newsletter and to unsubscribe to the newsletter. Information entered is saved on a database.</p>
 
 <h2>Code-First</h2>
